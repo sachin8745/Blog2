@@ -1,0 +1,108 @@
+body {
+    font-family: "Asap";
+    margin: 0%;
+  }
+  body a {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .header {
+    background-color: #f1fbff;
+    padding: 5px 100px;
+  }
+  .header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header nav a i {
+    padding-right: 10px;
+  }
+  .header nav .links {
+    padding: 20px;
+  }
+  .header nav .links a {
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5%;
+  }
+  .header nav .links a:hover {
+    background-color: #00e87c;
+  }
+  .header .main {
+    text-align: center;
+    margin: 100px 300px;
+  }
+  .header .main h1 {
+    text-transform: capitalize;
+  }
+  
+  .container {
+    margin: 80px 100px;
+  }
+  .container .tags {
+    margin-bottom: 7px;
+  }
+  .container .tags a {
+    margin-right: 25px;
+  }
+  .container .tags a:hover {
+    font-weight: bold;
+  }
+  .container .line {
+    content: "";
+    border: 1px solid #bbb;
+  }
+  .container .content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 50px auto 50px auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin-top: 30px;
+  }
+  .container .content .item img {
+    border-radius: 3%;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .content .item .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid #c9f2f3;
+    background-color: #cafaca;
+  }
+  .container .content .item .box h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  .container .content .item .box a {
+    font-size: small;
+  }
+  .container .content .item p {
+    color: gray;
+    font-size: small;
+    margin-bottom: 25px;
+  }
+  .container .content .item .anc {
+    background-color: #00e87c;
+    font-size: small;
+    padding: 10px 15px;
+    text-transform: none;
+    border-radius: 5%;
+    font-weight: bold;
+  }
